@@ -35,8 +35,7 @@ pipeline{
                         -Dsonar.projectKey=$project \
                         -Dsonar.projectName=$project \
                         -Dsonar.projectVersion=$projectVersion \
-                        -Dsonar.login="devops" \
-                        -Dsonar.password="devops" \
+                        -Dsonar.token="sqa_5ad4f89ee113bb5d7dafd90925a888e96800a914" \
                         -Dsonar.sources=./"
                     }
                 }
